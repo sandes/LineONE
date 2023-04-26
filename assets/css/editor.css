@@ -1,0 +1,294 @@
+.ed59-container-editor{
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 7px;
+}
+
+.ed59-ce-panel{
+  width: 215px;
+  min-width: 215px;
+  background: #ffffff;
+  /* border-right: 1px solid #565656; */
+  margin-left: 7px;
+  margin-right: 7px;
+  border-radius: 5px;
+}
+
+.ed59-ce-editor{
+  display: flex;
+  -ms-flex: 1 1 0%;
+  flex: 1;
+}
+
+.container {
+    overflow-x: hidden;
+
+background: #ebeced;
+}
+
+.ed59-editor{
+  height: calc(100vh - 75px);
+  width: 100%;
+}
+.ed59-platform-editor {
+    height: 100%;
+    overflow: auto;
+    position: relative;
+    width: calc(70% - 0.5px);
+    float: left;
+    height: 100%;
+    border-radius: 5px;
+}
+.wrapper-top{
+  height: 60px;
+}
+
+.ed59-title-res{
+  padding: 10px 15px;
+      color: #ffffff;
+      font-weight: 400;
+      font-size: 14px;
+      flex-grow: 1;
+}
+.CodeMirror-hscrollbar::-webkit-scrollbar-track-piece{
+  background: #fff;
+  border-radius: 10px;
+}
+
+.ed59-platform-response::-webkit-scrollbar-track-piece{
+    background: #1c2333;
+    border-radius: 10px;
+}
+.CodeMirror-hscrollbar::-webkit-scrollbar-thumb,
+.ed59-platform-response::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    height: 30px;
+    border: 4px solid transparent;
+    background-clip: padding-box;
+    -webkit-border-radius: 8px;
+    background-color: rgba(175,173,173,0.6);
+    -webkit-box-shadow: inset -1px -1px 0 rgb(0 0 0 / 5%), inset 1px 1px 0 rgb(0 0 0 / 5%);
+}
+.CodeMirror-hscrollbar::-webkit-scrollbar,
+.ed59-platform-response::-webkit-scrollbar{
+    width: 16px;
+    height: 18px;
+}
+.CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler {
+    background-color: #fff !important;
+}
+.ed59-platform-response {
+  background: #1c2333;
+  width: calc(30% - 0.5px);
+  overflow: auto;
+  position: relative;
+  float: left;
+  height: 100%;
+  margin-left: 7px;
+  border-radius: 5px;
+  margin-right: 7px;
+}
+
+.gutter-horizontal {
+    cursor: ew-resize;
+    height: 100%;
+    float: left;
+    background: #565656;
+    position: relative;
+
+}
+.gutter-horizontal:after{
+  content: "";
+  display: block;
+  height: 100%;
+  width: 8px;
+  position: absolute;
+  left: -3px;
+  z-index: 10;
+}
+
+.display-block{
+  display: block !important;
+}
+.Close {
+    position: relative;
+}
+
+button.close-mobile {
+  border: none;
+      outline: none;
+      background: none;
+      cursor: pointer;
+}
+.res-con {
+    display: flex;
+    /* flex: 1 1; */
+}
+
+.vm--overlay{
+      background: rgb(0 0 0 / 70%) !important;
+}
+.vm--modal{
+  box-shadow: none !important;
+}
+.modal-header {
+    background: #f6f9fc;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.container-modal-title {
+    display: flex;
+    align-items: center;
+}
+.container-modal-title > svg {
+    fill: #566382;
+}
+h4.modal-title {
+    margin: 5px;
+    font-size: 15px;
+    color: #525f7f;
+    font-weight: 400;
+}
+.modal-body {
+    position: relative;
+    padding: 15px;
+}
+.modal-label {
+    /* position: relative; */
+    /* padding: 15px; */
+    font-size: 12px;
+    color: #7b8994;
+}
+.modal-input--wr {
+    background-color: rgb(255,255,255);
+    box-shadow: rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px;
+    border-radius: 4px;
+    padding: 4px;
+    margin-top: 8px;
+}
+input#modal--folder-name {
+    width: 100%;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    margin: 0;
+    text-decoration: none;
+    vertical-align: middle;
+    word-break: keep-all;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    transition: color 250ms;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+    color: #3c4257;
+    padding: 2px 5px;
+}
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+
+}
+.btn1{
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+button.btn1.btn-default.modal-close {
+    border: 1px solid #afafaf;
+}
+button.btn1.btn-primary.modal-create {
+    background-color: rgb(0 0 0);
+    color: #fff;
+    border: 1px solid #000;
+}
+button.btn1.btn-primary.modal-delete {
+    background-color: rgb(0 0 0);
+    color: #fff;
+    border: 1px solid #000;
+}
+button.btn1[disabled]{
+  cursor: not-allowed !important;
+}
+
+.CodeMirror-gutters {
+  border-right: none !important;
+  background-color: #fff !important;
+  white-space: nowrap;
+}
+.cm-s-default .cm-keyword {
+
+    font-weight: 600;
+}
+@media(max-width:700px){
+
+  .ed59-ce-panel{
+    display: none;
+  }
+
+  #scrollresponse{
+    width: 100% !important;
+    position: absolute;
+    background: #000;
+    z-index: 1000;
+    display: none;
+    color: #000000;
+  }
+  .ed59-platform-editor{
+    width: 100%;
+  }
+  .gutter-horizontal{
+    display: none;
+  }
+  .ed59-platform-response::-webkit-scrollbar-track-piece{
+    background: #000000 !important;
+  }
+  .lds-dual-ring.mini:after {
+      background: #000 !important;
+  }
+  .ed59-ce-panel {
+      position: absolute;
+      z-index: 10000;
+      /* display: block; */
+      right: 0;
+      border-left: 1px solid #565656;
+  }
+
+}
+
+@media(min-width:700px){
+
+  .Close{
+    display: none;
+    pointer-events: none;
+  }
+
+}
