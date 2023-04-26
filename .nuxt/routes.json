@@ -4,15 +4,13 @@
     "path": "/editor",
     "component": "/home/piers/Documents/LineONE/pages/editor/index.vue",
     "chunkName": "pages/editor/index",
-    "url": "/editor",
-    "_name": "_f32655c0"
+    "url": "/editor"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/home/piers/Documents/LineONE/pages/index.vue",
     "chunkName": "pages/index",
-    "url": "/",
-    "_name": "_0efef492"
+    "url": "/"
   }
 ]
