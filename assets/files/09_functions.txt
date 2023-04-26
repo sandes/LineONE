@@ -1,0 +1,32 @@
+function add_two_numbers()
+    num_one = 2
+    num_two = 3
+    total = num_one + num_two
+    return total
+endfunction
+
+print(add_two_numbers())
+
+
+function greetings(name)
+    message = name + ', welcome to lineone.dev!'
+    return message
+endfunction
+
+print(greetings('sandes'))
+
+
+function square_number(x)
+    return x * x
+endfunction
+
+print(square_number(2))
+
+
+function weight_of_object (mass, gravity)
+    weight = text(mass * gravity)+ ' N' # the value has to be changed to a string first
+    return weight
+endfunction
+
+print('Weight of an object in Newtons: ', weight_of_object(100, 9.81))
+

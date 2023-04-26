@@ -1,0 +1,33 @@
+# Single line comment
+
+letter = 'P'                # A string could be a single character or a bunch of texts
+print(letter)               # P
+print(len(letter))          # 1
+greeting = 'Hello, World!'  # String could be  a single or double quote,"Hello, World!"
+print(greeting)             # Hello, World!
+print(len(greeting))        # 13
+sentence = "I hope you are enjoying lineone.dev"
+print(sentence)
+
+
+
+# String Concatenation
+first_name = 'Santiago'
+last_name = 'Debus'
+space = ' '
+full_name = first_name  +  space + last_name
+print(full_name) # Santiago Debus
+# Checking length of a string using len() builtin function
+print(len(first_name))  # 8
+print(len(last_name))   # 5
+print(len(first_name) > len(last_name)) # True
+print(len(full_name)) # 14
+
+
+# is string
+
+print(istext("hello")) # true
+print(istext(1789)) # false
+
+
+print(substring("hello world",0,3)) # cut a string from index [0 to 3)

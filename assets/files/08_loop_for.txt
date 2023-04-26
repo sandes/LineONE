@@ -1,0 +1,23 @@
+# example 1
+
+for i=0 to 10 do
+    print(i)
+endfor
+
+
+# step
+
+for i=0 to 10 step 2 do
+    print(i)
+endfor
+
+
+for i=10 to 0 step -2 do
+    print(i)
+endfor
+
+
+numbers = [1,2,3,4,5]
+for i=0 to len(numbers) do
+    print(numbers[i])
+endfor

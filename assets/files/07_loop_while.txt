@@ -1,0 +1,21 @@
+
+count = 0
+while count < 5 do
+    print(count)
+    count = count + 1
+endwhile
+#prints from 0 to 4
+
+
+
+count = 0
+while count < 5 do
+    if count == 3 then
+        break
+	endif
+    print(count)
+    count = count + 1
+endwhile
+#prints from 0 to 2
+
+

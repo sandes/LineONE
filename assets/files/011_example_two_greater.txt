@@ -1,0 +1,22 @@
+function two_greater(numbers)
+    max1 = numbers[0]
+    max2 = numbers[1]
+    
+    for i=2 to len(numbers) do
+        if numbers[i] > max1 then
+            max2 = max1
+            max1 = numbers[i]
+        else if numbers[i] > max2 then
+            max2 = numbers[i]
+        endif
+    endfor
+        
+    return [max1, max2]
+endfunction
+
+
+tmp = two_greater([89,2,3,45,23,4,545,9])
+  
+print(tmp[0])
+print(tmp[1])
+ 

@@ -1,0 +1,13 @@
+function fibo(n)
+    
+    if n <= 1 then 
+        return n
+    else
+        return fibo(n-2) + fibo(n-1)
+    endif
+endfunction
+
+
+for i=0 to 10 do    
+    print(fibo(i))
+endfor

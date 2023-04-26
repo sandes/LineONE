@@ -1,0 +1,41 @@
+a = 3
+if a > 0 then
+    print('A is a positive number')
+endif
+# A is a positive number
+
+
+
+a = 3
+if a < 0 then
+    print('A is a negative number')
+else
+    print('A is a positive number')
+endif
+# A is a positive number
+
+
+a = 0
+if a > 0 then
+    print('A is a positive number')
+else if a < 0 then
+    print('A is a negative number')
+else
+    print('A is zero')
+endif
+# A is zero
+
+
+a = 0
+if a > 0 then
+    if a mod 2 == 0 then
+        print('A is a positive and even integer')
+    else
+        print('A is a positive number')
+    endif
+else if a == 0 then
+    print('A is zero')
+else
+    print('A is a negative number')
+endif
+# A is zero
