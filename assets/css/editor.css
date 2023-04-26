@@ -18,7 +18,17 @@
   margin-right: 7px;
   border-radius: 5px;
 }
-
+.file-el {
+  padding: 5px 5px;
+  cursor: pointer;
+}
+.file-el:hover {
+  background: #e9e9e9;
+}
+.wrap-files{
+  margin-left: 4px; 
+  margin-right: 4px;
+}
 .ed59-ce-editor{
   display: flex;
   -ms-flex: 1 1 0%;
