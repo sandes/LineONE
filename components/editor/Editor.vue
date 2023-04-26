@@ -32,6 +32,7 @@
           <EditorPanel
             v-on:toggle_panel="toggle_panel"
             ref="panelMethods"
+            @open_file="open_file"
             />
         </div>
 
@@ -136,10 +137,17 @@ const precodigo = require('precodigo/lib/precodigo.js');
 import "../../assets/css/editor.css";
 
 
-import ej_for from '@/assets/files/for.txt';
 import ej_operators from '@/assets/files/01_operators.txt'
 import ej_variables from '@/assets/files/02_variables.txt'
 import ej_operators2 from '@/assets/files/03_operators.txt'
+import ej_strings from '@/assets/files/04_strings.txt'
+import ej_lists from '@/assets/files/05_lists.txt'
+import ej_if from '@/assets/files/06_if.txt'
+import ej_while from '@/assets/files/07_loop_while.txt'
+import ej_for from '@/assets/files/08_loop_for.txt'
+import ej_functions from '@/assets/files/09_functions.txt'
+import ej_example_fibo from '@/assets/files/010_example_fibo.txt'
+import ej_example_two from '@/assets/files/011_example_two_greater.txt'
 
 export default {
 
@@ -148,7 +156,7 @@ export default {
       showPanel:true,
       forceShowMenuMobile:false,
       forceShowPanelResponse:false,
-      code:ej_operators2,
+      code:ej_operators,
       cm:null,
       delay:null,
       finish:true,
@@ -211,7 +219,57 @@ export default {
 
   methods:{
 
+    open_file(name){
 
+      switch (name) {
+        case 'introduction':
+          this.cm.setValue(ej_operators);
+          break;
+        case 'variables':
+          this.cm.setValue(ej_variables);
+          break;
+        case 'operators':
+          this.cm.setValue(ej_operators2);
+          break;
+        case 'strings':
+          this.cm.setValue(ej_strings);
+          break;
+        case 'lists':
+          this.cm.setValue(ej_lists);
+          break;
+        case 'if':
+          this.cm.setValue(ej_if);
+          break;
+
+        case 'loop_while':
+          this.cm.setValue(ej_while);
+          break;
+
+        case 'loop_for':
+          this.cm.setValue(ej_for);
+          break;          
+        
+        case 'functions':
+          this.cm.setValue(ej_functions);
+          break;               
+
+        case 'example_fibonacci':
+          this.cm.setValue(ej_example_fibo);
+          break; 
+          
+        case 'example_two_greater':
+          this.cm.setValue(ej_example_two);
+          break;   
+          
+
+        default:
+          this.cm.setValue('');
+          break;
+      }
+
+    
+
+    },
     toggle_panel(){
 
       let sp = !this.showPanel;

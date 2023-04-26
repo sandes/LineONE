@@ -13,19 +13,7 @@
             </h1>
     
 
-            <nav id="hnsm" class="header-nav-signin-mobile">
 
-            <a class="MenuButton">
-              <svg width="16" height="10" viewBox="0 0 16 10">
-                <title>Open mobile</title>
-                <g fill="var(--knockoutColor)" fill-rule="evenodd">
-                  <rect y="8" width="16" height="2" rx="1"></rect>
-                  <rect y="4" width="16" height="2" rx="1"></rect>
-                  <rect width="16" height="2" rx="1"></rect>
-                </g>
-              </svg>
-            </a>
-            </nav>
 
 
             <div class="feedback">
@@ -66,12 +54,7 @@
                 <span>Lineone is an intuitive web-based-programming language writen in Javascript, that has been crafted to facilitate the learning of coding, with a primary emphasis on honing computational logic skills.</span>
 
               </div>
-              <div style="
-    margin-top: 10px;
-    color: #9d9d9d;
-">
-                Thanks Asabeneh/30-Days-Of-Python for inspirational examples.
-              </div>
+
               
 
             </h3>
