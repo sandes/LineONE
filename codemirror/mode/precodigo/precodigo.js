@@ -53,6 +53,7 @@ var commonKeywords = [
     "sqrt()",
     "joun()",
     "max()",
+    "join()",
     "min()",
     "abs()",
     "ln()",
