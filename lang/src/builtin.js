@@ -640,11 +640,10 @@ class BuiltIn extends FunctionBase{
           )
         }
 
+
         var random_value = Math.floor(
-          Math.random() * (
-            parseInt(node1.value)
-            - parseInt(node2.value) + 1) + parseInt(node2.value)
-        );
+          Math.random() * (parseInt(node2.value) - parseInt(node1.value) + 1)  
+        ) + parseInt(node2.value);
 
       }
 
