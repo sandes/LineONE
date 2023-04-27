@@ -641,7 +641,7 @@ class BuiltIn extends FunctionBase{
         }
 
 
-
+        // new random value between node1 and node2
         var random_value = Math.floor(Math.random() * (parseInt(node2.value) - parseInt(node1.value) + 1)) + parseInt(node1.value);
 
       }
