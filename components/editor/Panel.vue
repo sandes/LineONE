@@ -95,11 +95,16 @@ export default {
                 },                    
                 
                 {
-                    name:"example_fibonacci",
+                    name:"fibonacci",
                 },                         
                 {
-                    name:"example_two_greater",
-                },                                                                        
+                    name:"two_greater",
+                },     
+                {
+                    name:"rock_paper_scissors",
+                },                     
+                
+                
 
             ]
 

@@ -148,6 +148,7 @@ import ej_for from '@/assets/files/08_loop_for.txt'
 import ej_functions from '@/assets/files/09_functions.txt'
 import ej_example_fibo from '@/assets/files/010_example_fibo.txt'
 import ej_example_two from '@/assets/files/011_example_two_greater.txt'
+import ej_rps from '@/assets/files/012_input.txt'
 
 export default {
 
@@ -260,7 +261,10 @@ export default {
         case 'example_two_greater':
           this.cm.setValue(ej_example_two);
           break;   
-          
+        
+        case 'rock_paper_scissors':
+          this.cm.setValue(ej_rps);
+          break;
 
         default:
           this.cm.setValue('');
