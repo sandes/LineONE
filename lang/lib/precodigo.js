@@ -4599,7 +4599,7 @@
 
 
 
-            Math.floor(Math.random() * (parseInt(node2.value) - parseInt(node1.value) + 1)) + parseInt(node1.value);
+            var random_value = Math.floor(Math.random() * (parseInt(node2.value) - parseInt(node1.value) + 1)) + parseInt(node1.value);
 
           }
 
