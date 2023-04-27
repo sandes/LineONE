@@ -43,7 +43,7 @@
             <h1 class="title">
               <em>
                 <span id="title" class="styles_word__3haUq">
-                   Lineone
+                   LineOne
                 </span>
               </em>
 
@@ -52,7 +52,7 @@
             <h3 class="subtitle">
               <div>
                 <span>Lineone is an intuitive web-based-programming language writen in Javascript, that has been crafted to facilitate the learning of coding, with a primary emphasis on honing computational logic skills.</span>
-
+                
               </div>
 
               
