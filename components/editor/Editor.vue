@@ -254,11 +254,11 @@ export default {
           this.cm.setValue(ej_functions);
           break;               
 
-        case 'example_fibonacci':
+        case 'fibonacci':
           this.cm.setValue(ej_example_fibo);
           break; 
           
-        case 'example_two_greater':
+        case 'two_greater':
           this.cm.setValue(ej_example_two);
           break;   
         
