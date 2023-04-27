@@ -822,6 +822,7 @@ class BuiltIn extends FunctionBase{
 
       const node2 = exec_ctx.symbol_table.symbols[1];
 
+      /*
       if (!(node1 instanceof String_) || !(node2 instanceof String_)) {
         return res.failure(
           new e.RunTimeError(
@@ -832,6 +833,7 @@ class BuiltIn extends FunctionBase{
           )
         )
       }
+      */
 
       return res.success(
         new Number_((node1.value).indexOf(node2.value))
