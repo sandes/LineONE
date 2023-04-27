@@ -4755,10 +4755,7 @@
         }
 
         execute_find(exec_ctx){
-
-          const String_ = string;
           const Number_ = number;
-          const e = error;
           const res = new Runtime();
 
 
@@ -4777,6 +4774,7 @@
 
           const node2 = exec_ctx.symbol_table.symbols[1];
 
+          /*
           if (!(node1 instanceof String_) || !(node2 instanceof String_)) {
             return res.failure(
               new e.RunTimeError(
@@ -4787,6 +4785,7 @@
               )
             )
           }
+          */
 
           return res.success(
             new Number_((node1.value).indexOf(node2.value))
