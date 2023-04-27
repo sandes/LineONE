@@ -49,6 +49,7 @@ var commonKeywords = [
     "number()",
     "text()",
     "minus()",
+    "input()",
     "mayus()",
     "sqrt()",
     "joun()",
